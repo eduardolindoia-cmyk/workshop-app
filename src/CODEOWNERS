@@ -1,0 +1,10 @@
+# Default owner for everything: ops-team reviews all files
+* @DemosAyoubOrg/ops-team
+
+# Source code: requires BOTH developers AND ops-team
+/src/ @DemosAyoubOrg/developers @DemosAyoubOrg/ops-team
+
+# Infrastructure files: requires BOTH security-team AND ops-team
+*.tf    @DemosAyoubOrg/security-team @DemosAyoubOrg/ops-team
+*.yml   @DemosAyoubOrg/security-team @DemosAyoubOrg/ops-team
+*.yaml  @DemosAyoubOrg/security-team @DemosAyoubOrg/ops-team
